@@ -7,5 +7,5 @@ void MemorySimulator::assembleFixedEqual() {
         partitionList.push_back(temp);
     }
 
-    cout << partitionList.size() << " partitions formed\n";
+   
 }

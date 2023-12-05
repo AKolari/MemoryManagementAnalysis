@@ -75,7 +75,6 @@ void MemorySimulator::simulateFixed(vector<Process> processList) {
 
     //When the simulation is done, output everything
 
-    cout << "\n EQUAL FIXED PARTITION:\n";
     cout << "Average Internal Fragmentation: " << averageInternalFragmentation << " MB\n";
     cout << "Number of Allocation Fails: " << failureCount << endl;
     cout << "Average Memory Allocation: " << averageMemoryUtilization << "%\n";
