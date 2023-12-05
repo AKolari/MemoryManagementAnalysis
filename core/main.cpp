@@ -32,14 +32,19 @@ int main() {
     }
 
     MemorySimulator mem(64, 8);
-    cout << "Fixed Unequal\n";
     mem.assembleFixedEqual();
+    
+    cout << "\n EQUAL FIXED PARTITION:\n";
     mem.simulateFixed(processList);
     mem.clearPartitions();
-
-    cout << "Fixed Unequal\n";
     mem.assembleFixedUnEqual(15);
+    
+    cout << "\n UNEQUAL FIXED PARTITION:\n";
     mem.simulateFixed(processList);
+    mem.clearPartitions();
+    
+    mem.assembleDynamicFF();
+    mem.simulateDynamic(processList);
 
     return 0;
 }
