@@ -10,4 +10,7 @@ add_executable(MemoryManagementAnalysis
         simulator/assembledFixedEqual.cpp
         simulator/assembleFixedUnequal.cpp
         simulator/simulateFixed.cpp
+        simulator/assembledDynamicFF.cpp
+        simulator/defragment.cpp
+        simulator/simulateDynamic.cpp
 )

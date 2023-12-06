@@ -34,6 +34,10 @@ public:
     void assembleFixedEqual();
     void assembleFixedUnEqual(int maxSize);
     void simulateFixed(vector<Process> processList);
+
+    void assembleDynamicFF();
+    void simulateDynamic(vector<Process> processList);
+    void defragment();
 };
 
 #endif //MEMORYMANAGEMENTANALYSIS_MEMORY_SIMULATOR_HPP

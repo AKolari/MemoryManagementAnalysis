@@ -6,18 +6,16 @@ using namespace std;
 
 int main() {
     ifstream fin;
-    cout << "Current Working Directory: " << std::filesystem::current_path() << endl;
+    filesystem::path filePath = filesystem::current_path(); // build directory
+    filePath = filePath.parent_path(); // project directory
+    filePath /= "core/ProcessList.txt"; // txt file
 
-    // basically problem is that it starts looking for the ProcessList.txt from the working directory. Using absolute filepath for ProcessList.txt fixes the probelm for now.
-    //fin.open("/...insert absolute path.../ProcessList.txt");
-    fin.open("/...absolutepath.../ProcessList.txt");
+    fin.open(filePath);
 
-    if (fin.is_open()) {
-        cout << "File opened";
-    } else if (!fin.is_open()) {
+    if (!fin.is_open()) {
         cout << "File not opened";
+        return 0;
     }
-    cout << "\n";
 
     int numberOfProcesses;
     fin >> numberOfProcesses;
@@ -32,14 +30,18 @@ int main() {
     }
 
     MemorySimulator mem(64, 8);
-    cout << "Fixed Unequal\n";
     mem.assembleFixedEqual();
+    cout << "\n EQUAL FIXED PARTITION:\n";
     mem.simulateFixed(processList);
     mem.clearPartitions();
 
-    cout << "Fixed Unequal\n";
     mem.assembleFixedUnEqual(15);
+    cout << "\n UNEQUAL FIXED PARTITION:\n";
     mem.simulateFixed(processList);
+    mem.clearPartitions();
 
+    mem.assembleDynamicFF();
+    mem.simulateDynamic(processList);
+    mem.clearPartitions();
     return 0;
 }
