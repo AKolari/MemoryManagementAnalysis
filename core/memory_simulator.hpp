@@ -1,3 +1,4 @@
+
 #ifndef MEMORYMANAGEMENTANALYSIS_MEMORY_SIMULATOR_HPP
 #define MEMORYMANAGEMENTANALYSIS_MEMORY_SIMULATOR_HPP
 #include "../structs/partition.hpp"
@@ -33,10 +34,11 @@ public:
     void clearPartitions();
     void assembleDynamicFF();
     void assembleFixedEqual();
-    void assembleFixedUnEqual(int maxSize);
+    void assembleFixedUnEqual();
     void simulateFixed(vector<Process> processList);
     void simulateDynamic(vector<Process> processList);
     void defragment();
 };
 
 #endif //MEMORYMANAGEMENTANALYSIS_MEMORY_SIMULATOR_HPP
+

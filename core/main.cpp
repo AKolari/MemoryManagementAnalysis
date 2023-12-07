@@ -31,7 +31,7 @@ int main() {
     cout << "\n EQUAL FIXED PARTITION:\n";
     mem.simulateFixed(processList);
     mem.clearPartitions();
-    mem.assembleFixedUnEqual(15);
+    mem.assembleFixedUnEqual();
     
     cout << "\n UNEQUAL FIXED PARTITION:\n";
     mem.simulateFixed(processList);

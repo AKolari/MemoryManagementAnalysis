@@ -1,22 +1,18 @@
 #include "../core/memory_simulator.hpp"
 
-void MemorySimulator::assembleFixedUnEqual(int maxSize) {
+void MemorySimulator::assembleFixedUnEqual() {
 
-    srand(time(0));
     int startingAddress = osSize;
-    int remainingMemory = totalMemory - osSize;
-    int numberOfPartitions = 0;
-    while (remainingMemory > 0) {
-        int partitionSize = rand() % maxSize + 1;
-        if (partitionSize > remainingMemory) {
-            partitionSize = remainingMemory;
-        }
-        Partition temp(startingAddress, partitionSize);
-        partitionList.push_back(temp);
-        startingAddress += partitionSize;
-        remainingMemory -= partitionSize;
-        numberOfPartitions++;
-        
-    }
     
+    int numberOfPartitions = 11;
+    int partitions[11] = {2,2,4,4,4,4,6,6,8,8,8};
+    
+    for(int i = 0; i < numberOfPartitions;i++)
+    {
+        Partition temp(startingAddress, partitions[i]);
+        partitionList.push_back(temp);
+        startingAddress += partitions[i];
+     
+    }
+  
 }
