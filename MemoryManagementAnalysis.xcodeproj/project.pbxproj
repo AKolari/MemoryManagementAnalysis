@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C901174AF77A476C96EC96FA /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B35E398A2F694F4BB9319D04 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				55115D35A3369E35177C65E1 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				4BF35A92937E43C6AFE6EFD9 /* PBXTargetDependency */,
+				062E58B48D9C4FBB826B1D6C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		EE8422A104D844E2AB1F6893 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 01F4D2237E4442A497FB694A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				559313E076114FB809875AEA /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0B87B0BC1AA54D27A480EB38 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/assembleFixedUnequal.cpp */ = {isa = PBXBuildFile; fileRef = F3810E9C082C425E8C87DC4B /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/assembleFixedUnequal.cpp */; };
+		107D8A8EB678485A92D82BDE /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/structs/partition.cpp */ = {isa = PBXBuildFile; fileRef = 3BDC793A211D4E459C85A986 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/structs/partition.cpp */; };
+		177A738A1B1C4F8E8C72DD99 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/defragment.cpp */ = {isa = PBXBuildFile; fileRef = BB582CC7706047DCAF27CCF4 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/defragment.cpp */; };
+		30B93C65AE844CC2B6B80171 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/core/main.cpp */ = {isa = PBXBuildFile; fileRef = 802F7B4AF6BD4D11A7D592CE /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/core/main.cpp */; };
+		718AA9517AB7422083C74D4F /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/simulateDynamic.cpp */ = {isa = PBXBuildFile; fileRef = 8A20AFF9BC5F4659BEFEEB0C /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/simulateDynamic.cpp */; };
+		9E17BB2A60DA4E92A31BC498 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/simulateFixed.cpp */ = {isa = PBXBuildFile; fileRef = B9DCBBCA1F8F4159BD33B878 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/simulateFixed.cpp */; };
+		BD32DE82A6114420A52B953C /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 21CC1DCFB6D14E7DA575A9A9 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/CMakeLists.txt */; };
+		D256167277134DEEBF14040A /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/assembledDynamicFF.cpp */ = {isa = PBXBuildFile; fileRef = 78C467CF467B4143817991BE /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/assembledDynamicFF.cpp */; };
+		E93C114EA0464260A4BFCFCB /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/core/memory_simulator.cpp */ = {isa = PBXBuildFile; fileRef = 55D9FDD60651414499604F2B /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/core/memory_simulator.cpp */; };
+		ECB11C2264544C248518753D /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/assembledFixedEqual.cpp */ = {isa = PBXBuildFile; fileRef = DCD714861A1149ADB9A35341 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/assembledFixedEqual.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0991242C0A7E48B7A86BB6AC /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		5B85AAEDE9EB4082A79270E1 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		817C928644164ADDA99D0BBA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A55DE4D153A84F08AF878697 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2B1E5A4C2B8243AE83E97BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 149242DA3D6E4F6F9025518F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 693BBA5294F241199990E392;
+			remoteInfo = MemoryManagementAnalysis;
+		};
+		4F51BC6BC5EE48E08BAE2F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 149242DA3D6E4F6F9025518F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8422A104D844E2AB1F6893;
+			remoteInfo = ZERO_CHECK;
+		};
+		F7E6622F52E44A0D8EEE48B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 149242DA3D6E4F6F9025518F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8422A104D844E2AB1F6893;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C9543E4C444920A854B98C /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		21CC1DCFB6D14E7DA575A9A9 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3BDC793A211D4E459C85A986 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/structs/partition.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = partition.cpp; path = structs/partition.cpp; sourceTree = SOURCE_ROOT; };
+		3BF3DB3660A14DCB82D80A2B /* MemoryManagementAnalysis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = MemoryManagementAnalysis; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D9FDD60651414499604F2B /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/core/memory_simulator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = memory_simulator.cpp; path = core/memory_simulator.cpp; sourceTree = SOURCE_ROOT; };
+		78C467CF467B4143817991BE /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/assembledDynamicFF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = assembledDynamicFF.cpp; path = simulator/assembledDynamicFF.cpp; sourceTree = SOURCE_ROOT; };
+		802F7B4AF6BD4D11A7D592CE /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/core/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = core/main.cpp; sourceTree = SOURCE_ROOT; };
+		8A20AFF9BC5F4659BEFEEB0C /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/simulateDynamic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = simulateDynamic.cpp; path = simulator/simulateDynamic.cpp; sourceTree = SOURCE_ROOT; };
+		B9DCBBCA1F8F4159BD33B878 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/simulateFixed.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = simulateFixed.cpp; path = simulator/simulateFixed.cpp; sourceTree = SOURCE_ROOT; };
+		BB582CC7706047DCAF27CCF4 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/defragment.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = defragment.cpp; path = simulator/defragment.cpp; sourceTree = SOURCE_ROOT; };
+		DCD714861A1149ADB9A35341 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/assembledFixedEqual.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = assembledFixedEqual.cpp; path = simulator/assembledFixedEqual.cpp; sourceTree = SOURCE_ROOT; };
+		F3810E9C082C425E8C87DC4B /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/assembleFixedUnequal.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = assembleFixedUnequal.cpp; path = simulator/assembleFixedUnequal.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC026FE04A442DC8388D063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152C0EB94A164152B4A4E07A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		207245A0756C4F1186ED9751 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				802F7B4AF6BD4D11A7D592CE /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/core/main.cpp */,
+				55D9FDD60651414499604F2B /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/core/memory_simulator.cpp */,
+				F3810E9C082C425E8C87DC4B /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/assembleFixedUnequal.cpp */,
+				78C467CF467B4143817991BE /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/assembledDynamicFF.cpp */,
+				DCD714861A1149ADB9A35341 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/assembledFixedEqual.cpp */,
+				BB582CC7706047DCAF27CCF4 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/defragment.cpp */,
+				8A20AFF9BC5F4659BEFEEB0C /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/simulateDynamic.cpp */,
+				B9DCBBCA1F8F4159BD33B878 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/simulateFixed.cpp */,
+				3BDC793A211D4E459C85A986 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/structs/partition.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2DB0793E591F46CDA5A97737 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				978459D7D5724D60B3B2BAFD /* CMake Rules */,
+				03C9543E4C444920A854B98C /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5DE1C18A4B54409CA7F3B249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BF3DB3660A14DCB82D80A2B /* MemoryManagementAnalysis */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62B9530BBA6E4B15A0885D2B /* MemoryManagementAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				207245A0756C4F1186ED9751 /* Source Files */,
+				21CC1DCFB6D14E7DA575A9A9 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/CMakeLists.txt */,
+			);
+			name = MemoryManagementAnalysis;
+			sourceTree = "<group>";
+		};
+		978459D7D5724D60B3B2BAFD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E03FB7D374F54C8E9321B5A1 = {
+			isa = PBXGroup;
+			children = (
+				62B9530BBA6E4B15A0885D2B /* MemoryManagementAnalysis */,
+				2DB0793E591F46CDA5A97737 /* ALL_BUILD */,
+				5DE1C18A4B54409CA7F3B249 /* Products */,
+				152C0EB94A164152B4A4E07A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		693BBA5294F241199990E392 /* MemoryManagementAnalysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3225F1B000434CE69D3BE450 /* Build configuration list for PBXNativeTarget "MemoryManagementAnalysis" */;
+			buildPhases = (
+				54E2417307CB4731AB6A0B99 /* Sources */,
+				9DC026FE04A442DC8388D063 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23B25B6EF1C147869B50D47E /* PBXTargetDependency */,
+			);
+			name = MemoryManagementAnalysis;
+			productName = MemoryManagementAnalysis;
+			productReference = 3BF3DB3660A14DCB82D80A2B /* MemoryManagementAnalysis */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		149242DA3D6E4F6F9025518F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = F5950959E51644BCBF233811 /* Build configuration list for PBXProject "MemoryManagementAnalysis" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A55DE4D153A84F08AF878697 /* Debug */,
+				817C928644164ADDA99D0BBA /* Release */,
+				5B85AAEDE9EB4082A79270E1 /* MinSizeRel */,
+				0991242C0A7E48B7A86BB6AC /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = E03FB7D374F54C8E9321B5A1;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				C901174AF77A476C96EC96FA /* ALL_BUILD */,
+				693BBA5294F241199990E392 /* MemoryManagementAnalysis */,
+				EE8422A104D844E2AB1F6893 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		55115D35A3369E35177C65E1 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		559313E076114FB809875AEA /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis
+  make -f /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis
+  make -f /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis
+  make -f /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis
+  make -f /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54E2417307CB4731AB6A0B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B93C65AE844CC2B6B80171 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/core/main.cpp */,
+				E93C114EA0464260A4BFCFCB /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/core/memory_simulator.cpp */,
+				0B87B0BC1AA54D27A480EB38 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/assembleFixedUnequal.cpp */,
+				D256167277134DEEBF14040A /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/assembledDynamicFF.cpp */,
+				ECB11C2264544C248518753D /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/assembledFixedEqual.cpp */,
+				177A738A1B1C4F8E8C72DD99 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/defragment.cpp */,
+				718AA9517AB7422083C74D4F /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/simulateDynamic.cpp */,
+				9E17BB2A60DA4E92A31BC498 /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/simulator/simulateFixed.cpp */,
+				107D8A8EB678485A92D82BDE /* /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/structs/partition.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		062E58B48D9C4FBB826B1D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8422A104D844E2AB1F6893 /* ZERO_CHECK */;
+			targetProxy = 4F51BC6BC5EE48E08BAE2F6E /* PBXContainerItemProxy */;
+		};
+		23B25B6EF1C147869B50D47E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8422A104D844E2AB1F6893 /* ZERO_CHECK */;
+			targetProxy = F7E6622F52E44A0D8EEE48B9 /* PBXContainerItemProxy */;
+		};
+		4BF35A92937E43C6AFE6EFD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 693BBA5294F241199990E392 /* MemoryManagementAnalysis */;
+			targetProxy = 2B1E5A4C2B8243AE83E97BEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06F90DFF90EA4D19AF6120DA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++2b' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MemoryManagementAnalysis;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/build/MemoryManagementAnalysis.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		102913B4511B42479D329810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1E83876C40DC4925AC93009D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2F3B23F6CF474C38B0FF0033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++2b' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MemoryManagementAnalysis;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/build/MemoryManagementAnalysis.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		33A5DF446A664AA3BB604DD8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/build;
+			};
+			name = RelWithDebInfo;
+		};
+		3571DC76023840E8A720FDF6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		418E0D06699F4F37B8543D2F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5AF07F1323C64CD99DF597C8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/build;
+			};
+			name = MinSizeRel;
+		};
+		7C3151C3C96D4750B8230070 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		86EA557673404A6CBD3C68F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8A3B6B69EBD64C1EB802381A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		947683EC0A554926BBAE9A9C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++2b' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MemoryManagementAnalysis;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/build/MemoryManagementAnalysis.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9D22C36826344A85B7921F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SYMROOT = /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/build;
+			};
+			name = Debug;
+		};
+		CDF07146D68049C98635D1D9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D76DF83695294634B239C400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/build;
+			};
+			name = Release;
+		};
+		DEF40406F89F4548ABD7A301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++2b' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MemoryManagementAnalysis;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/rafaeldiaz/CLionProjects/MemoryManagementAnalysis/build/MemoryManagementAnalysis.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F4D2237E4442A497FB694A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86EA557673404A6CBD3C68F0 /* Debug */,
+				1E83876C40DC4925AC93009D /* Release */,
+				7C3151C3C96D4750B8230070 /* MinSizeRel */,
+				3571DC76023840E8A720FDF6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3225F1B000434CE69D3BE450 /* Build configuration list for PBXNativeTarget "MemoryManagementAnalysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF40406F89F4548ABD7A301 /* Debug */,
+				2F3B23F6CF474C38B0FF0033 /* Release */,
+				947683EC0A554926BBAE9A9C /* MinSizeRel */,
+				06F90DFF90EA4D19AF6120DA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B35E398A2F694F4BB9319D04 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102913B4511B42479D329810 /* Debug */,
+				8A3B6B69EBD64C1EB802381A /* Release */,
+				418E0D06699F4F37B8543D2F /* MinSizeRel */,
+				CDF07146D68049C98635D1D9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F5950959E51644BCBF233811 /* Build configuration list for PBXProject "MemoryManagementAnalysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D22C36826344A85B7921F52 /* Debug */,
+				D76DF83695294634B239C400 /* Release */,
+				5AF07F1323C64CD99DF597C8 /* MinSizeRel */,
+				33A5DF446A664AA3BB604DD8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 149242DA3D6E4F6F9025518F /* Project object */;
+}

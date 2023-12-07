@@ -1,3 +1,8 @@
 .idea/
 cmake-build-debug/
 .DS_Store
+
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/ReRunCMake.make
+cmake_install.cmake
