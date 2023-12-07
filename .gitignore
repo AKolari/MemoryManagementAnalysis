@@ -1,3 +1,11 @@
 .idea/
 cmake-build-debug/
 .DS_Store
+CMakeFiles/
+CMakeScripts/ReRunCMake.make
+CMakeCache.txt
+cmake_install.cmake
+MemoryManagementAnalysis.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+build/
+*.xcsettings
+*.plist
