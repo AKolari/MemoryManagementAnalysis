@@ -1,7 +1,6 @@
 #include "../core/memory_simulator.hpp"
 
 void MemorySimulator::assembleFixedUnEqual(int maxSize) {
-
     srand(time(0));
     int startingAddress = osSize;
     int remainingMemory = totalMemory - osSize;
@@ -18,8 +17,3 @@ void MemorySimulator::assembleFixedUnEqual(int maxSize) {
         numberOfPartitions++;
     }
 }
-
-
-
-
-

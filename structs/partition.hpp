@@ -3,7 +3,7 @@
 
 #include "process.hpp"
 
-//class that contains partition data and behavior
+// class that contains partition data and behavior
 class Partition {
 public:
     Process currentProcess;
