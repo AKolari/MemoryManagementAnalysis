@@ -16,7 +16,6 @@ void MemorySimulator::assembleFixedUnEqual(int maxSize) {
         startingAddress += partitionSize;
         remainingMemory -= partitionSize;
         numberOfPartitions++;
-        cout << "NEW PARTITION: SIZE " << partitionSize << endl;
     }
 }
 
