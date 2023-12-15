@@ -9,6 +9,16 @@ void MemorySimulator::simulateDynamic(vector<Process> processList){
             if (partitionList[j].currentProcess.finishTime == i) {
                 partitionList[j].emptyPartition();
             }
+
+            //If two adjacent processes are empty, merge them
+            if (j > 0) {
+				if (!partitionList[j].isOccupied && !partitionList[j-1].isOccupied) {
+					partitionList[j - 1].totalSpace += partitionList[j].totalSpace;
+					partitionList.erase(partitionList.begin()+j);
+					j--;
+				}
+
+            
         }
 
         if (!processList.empty()) {
